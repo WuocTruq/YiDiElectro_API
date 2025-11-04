@@ -94,7 +94,7 @@ export default function Login() {
             <input
               type="text"
               id="username"
-              placeholder="Chi Thanh"
+              placeholder="YiDi"
               className={`${errors.username ? "border-2 border-red-600" : ""}`}
               {...register("username", { required: "This field is required" })}
             />
